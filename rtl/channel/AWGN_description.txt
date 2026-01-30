@@ -1,0 +1,1 @@
+The Gilbert module is implemented to output a enable signal. It shows high for good channel and low for the bad channel. The AWGN channel is implemented as a pre-generated look up table in mif file. It able to output a signal according to the enable signal it gets from Gilbert module.

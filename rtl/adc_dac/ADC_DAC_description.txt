@@ -1,0 +1,2 @@
+The data_shift_sampling module is implemented to downsample the signal to 20kHz. It set the quantization level from 24 bits to 8 bits for audio condec input to match up the channel requirement.  It set the quantization level from 16 bits to 8 bits for memory input.
+The data_resampling block is implemented to set the signals back to output. From 8 to 24 for the audio codec output. From 8 to 23 for the memory output.  
